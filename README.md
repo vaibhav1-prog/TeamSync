@@ -47,8 +47,8 @@ https://github.com/vaibhav1-prog/TeamSync
 - Mongoose ODM
 
 ## Deployment
-- Railway (Backend)
-- Vercel / Netlify (Frontend)
+- Railway (Backend/server)
+- Vercel (Frontend/client)
 
 ---
 
@@ -178,12 +178,6 @@ JWT_SECRET=your_jwt_secret_key
 CLIENT_URL=http://localhost:5173
 ```
 
-## Frontend `.env` (in `/client`)
-
-```env
-VITE_API_URL=http://localhost:5000/api
-```
-
 ---
 
 # Local Setup
@@ -240,7 +234,7 @@ The application is configured to be deployed using Railway and Vercel.
 
 ## Deployment Stack
 
-- Frontend → Vercel / Netlify
+- Frontend → Vercel
 - Backend → Railway
 - Database → MongoDB Atlas
 
