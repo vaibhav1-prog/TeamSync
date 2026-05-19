@@ -25,7 +25,7 @@ const CreateProject = () => {
   };
 
   return (
-    <main className="page narrow">
+    <main className="page app-page narrow">
       <form className="panel form" onSubmit={handleSubmit}>
         <h1>Create Project</h1>
         <input placeholder="Project name" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} />

@@ -27,7 +27,7 @@ const CreateTask = () => {
   };
 
   return (
-    <main className="page narrow">
+    <main className="page app-page narrow">
       <form className="panel form" onSubmit={handleSubmit}>
         <h1>Create Task</h1>
         <input placeholder="Task title" value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} />
