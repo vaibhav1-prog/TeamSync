@@ -7,7 +7,7 @@ It supports project management, task assignment, role-based access control, dash
 
 # Live Demo
 
-🔗 Live Application: *(Add Railway/Vercel link here once deployed)*
+🔗 Live Application: https://team-sync-six-chi.vercel.app/login
 
 💻 GitHub Repository:  
 https://github.com/vaibhav1-prog/TeamSync
@@ -34,7 +34,7 @@ https://github.com/vaibhav1-prog/TeamSync
 ## Frontend
 - React 18
 - Vite
-- Vanilla CSS
+- Tailwind CSS
 - Axios
 - React Router DOM
 
@@ -176,6 +176,11 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 CLIENT_URL=http://localhost:5173
+```
+
+## Frontend `.env` (in `/client`)
+```env
+VITE_API_URL=your_vite_url
 ```
 
 ---
