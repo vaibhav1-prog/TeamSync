@@ -7,7 +7,7 @@ It supports project management, task assignment, role-based access control, dash
 
 # Live Demo
 
-🔗 Live Application: https://team-sync-six-chi.vercel.app/login
+🔗 Live Application: https://teamsync-production-5eec.up.railway.app/login
 
 💻 GitHub Repository:  
 https://github.com/vaibhav1-prog/TeamSync
@@ -47,8 +47,7 @@ https://github.com/vaibhav1-prog/TeamSync
 - Mongoose ODM
 
 ## Deployment
-- Railway (Backend/server)
-- Vercel (Frontend/client)
+- Railway
 
 ---
 
@@ -239,8 +238,7 @@ The application is configured to be deployed using Railway and Vercel.
 
 ## Deployment Stack
 
-- Frontend → Vercel
-- Backend → Railway
+- Frontend + Backend → Railway
 - Database → MongoDB Atlas
 
 ---
