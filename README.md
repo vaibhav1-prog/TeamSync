@@ -234,7 +234,7 @@ http://localhost:5173
 
 # Deployment
 
-The application is configured to be deployed using Railway and Vercel.
+The application is configured to be deployed using Railway
 
 ## Deployment Stack
 
